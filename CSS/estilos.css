@@ -1,31 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500& f amily=Roboto:wght@100;300;500;900& d isplay=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  background-color: #D96471;
+  font-family: 'Roboto', sans-serif;
 }
 
-section {
-  background-color: blanchedalmond;
+header nav {
+  background-color: #f095a0;
+  display: grid;
+  -ms-grid-columns: (1fr, 8);
+      grid-template-columns: repeat(8, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-section p {
-  background-color: blanchedalmond;
-  font-size: 24px;
+header .logo {
+  width: 260px;
+  height: 160px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
 }
 
-div {
+header .menu {
+  grid-column: 2 / 7  display flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #060D06;
+}
+
+header .menubar {
+  display: block;
+}
+
+header h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5em;
+  font-weight: 300;
+}
+
+header p {
+  font-family: "Montserrat", sans-serif,  font-weight 300;
+}
+
+header div {
   width: 90%;
   max-width: 1350px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-div nav {
-  background-color: #D96471;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[8];
-      grid-template-columns: repeat(8, 1fr);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+header footer {
+  margin-top: 12px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 40px;
+  background-color: #f095a0;
+  position: relative;
+}
+
+header section {
+  background-color: blanchedalmond;
+}
+
+header section p {
+  background-color: blanchedalmond;
+  font-size: 24px;
 }
 /*# sourceMappingURL=estilos.css.map */
