@@ -7,11 +7,12 @@
 	box-sizing: border-box;
 }
 body{
+    background-color: #f095a0;
     font-family: 'Roboto', sans-serif;
 }
 
 .navbar{ 
-    background-color: #D96471;
+    background-color: #f095a0;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
@@ -19,8 +20,8 @@ body{
 }
 
 .navbar .logo{
-    width: 260px;
-    height: 160px;
+    width: 288px;
+    height: 150px;
     grid-column: 1 / 2;
 
 }
@@ -71,6 +72,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 5em;
     font-weight: 300;
+    color: #FFA770;
 }
 
 .hero .p{
@@ -85,12 +87,21 @@ body{
     overflow: hidden;
 }
 
+.infocontent{
+background-color: #aaeedda2;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+font-style: oblique;
+}
 .footer{
 	margin-top: 12px;
     font-family: "Montserrat", sans-serif;
 	width: 100%;
 	height: 40px;
-	background-color:#D96471;
+	background-color:#d96472b2;
 	position: relative;
 	
 }
+© 2022 GitHub, Inc.
+Terms
+Pr
