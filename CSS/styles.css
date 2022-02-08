@@ -1,6 +1,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Roboto:wght@100;300;500;900&display=swap');
 </style>
+
 {
 	margin: 0;
 	padding: 0;
@@ -101,4 +102,11 @@ font-style: oblique;
 	background-color:#d96472b2;
 	position: relative; 
 	
+}
+.infopie{
+   
+    text-align: right;
+    font-size: small;
+    font-family: "Montserrat", sans-serif;
+    font-style: oblique;
 }
